@@ -114,6 +114,7 @@ color: white;
 
 /* Projects Page CSS */
 .projects-grid {
+  margin-top: 70px;
   display: flex;
 }
 

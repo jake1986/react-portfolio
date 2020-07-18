@@ -38,20 +38,18 @@ class Projects extends Component {
                         </CardMenu>
                     </Card>
                     {/* Project 3 */}
-                    {/* <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: "#fff", height: "176px", background: "url(https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png) center / cover" }}>React Project #3 </CardTitle>
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: "#fff", height: "176px", background: "url(https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png) center / cover" }}>HOBNOB </CardTitle>
                         <CardText>
-                            This is a description of my 3rd project for REACT
+                            This is my 3rd project for REACT
                         </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>LiveDemo</Button>
+                            <a href="https://github.com/Brewtoga/project2"><Button colored>GitHub</Button></a>
                         </CardActions>
                         <CardMenu style={{ color: "#fff" }}>
                             <IconButton name="share" />
                         </CardMenu>
-                    </Card> */}
+                    </Card>
                 </div>
             )
         } else if (this.state.activeTab === 1) {
