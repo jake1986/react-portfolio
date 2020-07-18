@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Layout, Header, Navigation, Content, Drawer } from 'react-mdl';
+import { Layout, Header, Navigation, Content, Drawer, Footer, FooterSection, FooterLinkList } from 'react-mdl';
 import Main from './Components/Main';
 import { Link } from 'react-router-dom';
 import './App.css';
@@ -29,6 +29,14 @@ class App extends Component {
             <div className="page-content" />
             <Main />
           </Content>
+          <Footer className="footer-color" size="mini">
+            <FooterSection type="left" logo="Copyright @ Jake Rhoads 2020">
+              {/* <FooterLinkList>
+                <a href="#">Help</a>
+                <a href="#">Privacy & Terms</a>
+              </FooterLinkList> */}
+            </FooterSection>
+          </Footer>
         </Layout>
       </div>
     );
